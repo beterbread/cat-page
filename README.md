@@ -1,2 +1,3 @@
-# landing-page
-Project for The Odin Project
+# Cat Page
+Project: Landing Page for The Odin Project  
+Simple cat page using basic html and css
