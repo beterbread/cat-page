@@ -1,0 +1,167 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
+.header-links {
+  list-style-type: none;
+  font-size: 18px;
+  color: #E5E7EB;
+  display: flex;
+  gap: 16px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 70px 20px;
+}
+
+.main-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-header {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color:#F9FAF8;
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+.main-description {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.main-button {
+  background-color: #3882F6;
+  color:#F9FAF8;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  height: 30px;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.cat-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cat-facts {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.cat-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1F2937;
+}
+
+figcaption {
+  text-align: center;
+  max-width: 106px;
+  font-size: 18px;
+  color: #1F2937;
+}
+
+figure > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid;
+  border-radius: 7px;
+  border-color: #3882F6;
+}
+
+figure {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+#quote {
+  font-size: 36px;
+  font-style: light italic;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#quoter {
+  text-align: right;
+  padding-right: 38%;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.action {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 5% 15% 5% 15%;
+  border-radius: 3px;
+}
+
+#action-button {
+  background-color: #3882F6;
+  color:#F9FAF8;
+  border-radius: 5px;
+  border-color: #F9FAF8;
+  border-style: solid;
+  height: 30px;
+  width: 80px;
+}
+
+#action-text1 {
+  margin-bottom: 0px; 
+  font-size: 18px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+#action-text2 {
+  margin-top: 0px; 
+  padding-bottom: 6px;
+  font-size: 12px;
+  color: #F9FAF8;
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: #F9FAF8; 
+  background-color: #1F2937;
+}
