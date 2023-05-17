@@ -29,7 +29,7 @@ body {
 
 .main {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: #1F2937;
   padding: 70px 20px;
