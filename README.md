@@ -1,3 +1,3 @@
 # landing-page
-Project for The Odin Project
+Project for The Odin Project  
 Simple cat page
