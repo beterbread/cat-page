@@ -1,3 +1,3 @@
-# Cat Page
-Project: Landing Page for The Odin Project  
-Simple cat page using basic html and css
+# Cat Page  
+Cat page created with HTML and CSS  
+[I'm an inline-style link with title](https://beterbread.github.io/cat-page/ "Live demo")
